@@ -14,7 +14,7 @@
 }
 
 .banner-photo{
-    height: 650px;
+    height: 600px;
     padding-top: 75px;
 }
 
@@ -94,7 +94,6 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    /* justify-content: space-around; */
     gap: 250px;
 }
 
@@ -115,8 +114,9 @@ h4{
 }
 
 .icon-optional{
-    height: 88px;
+    height: 50px;
     display: flex;
+    justify-content: center;
     justify-content: space-around;
     padding-top: 50px;
 }
@@ -126,6 +126,81 @@ h4{
     text-align: center;
     justify-content: space-around;
     padding-top: 30px;
-    margin-left: 50px;
     
+}
+
+/* hot deal section  */
+
+.box-hot{
+    height: 400px;
+    background-color: #fceef1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.box-hot-img{
+    height: 300px;
+}
+
+.hot-box-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+
+.hot-box-info{
+    text-align: center;
+    justify-content: center;
+}
+
+.head-text-hot-box{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.off{
+    color: #E55473;
+}
+
+.hot-box-descriptions{
+    padding-bottom: 20px;
+}
+
+/* Instagram section */
+
+.instagram-section{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Get The Latest Deals */
+    
+
+.latest-section{
+    background-image: url(./assets/images/Rectangle\ 9.png);
+    height: 340px;
+
+}
+
+.deal-text{
+   
+    
+}
+.heading-deal-section{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+.email-section{
+    width: 550px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
 }
